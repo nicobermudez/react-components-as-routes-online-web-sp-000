@@ -10,6 +10,10 @@ const Home = () => {
   );
 };
 
+const About = () => {
+  
+}
+
 ReactDOM.render((
   <Router>
     <Route path="/" render={Home} />
