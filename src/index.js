@@ -40,6 +40,8 @@ ReactDOM.render((
   <Router>
     <>
       <Route path="/" render={Home} />
+      <Route path="/" render={Home} />
+      <Route path="/" render={Home} />
     </>
   </Router>), document.getElementById('root')
 );
