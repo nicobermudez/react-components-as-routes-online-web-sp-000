@@ -11,6 +11,6 @@ const Home = () => {
 };
 
 ReactDOM.render(
-  <Home />,
-  document.getElementById('root')
+  <Router>
+    <Route path="/" render={Home} />
 );
