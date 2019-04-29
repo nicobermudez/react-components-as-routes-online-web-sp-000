@@ -11,7 +11,9 @@ const Home = () => {
 };
 
 const About = () => {
-  
+  return (
+    
+  )
 }
 
 ReactDOM.render((
