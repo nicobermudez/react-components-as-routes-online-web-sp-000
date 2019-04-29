@@ -41,7 +41,7 @@ ReactDOM.render((
     <>
       <Route path="/" render={Home} />
       <Route path="/about" render={Home} />
-      <Route path="/" render={Home} />
+      <Route path="/login" render={Home} />
     </>
   </Router>), document.getElementById('root')
 );
